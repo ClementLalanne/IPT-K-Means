@@ -48,7 +48,7 @@ Enfin sur linux, tapez la commande suivante
 sudo apt-get -y install python3-pip
 ```
 
-##IPython Notebook
+## IPython Notebook
 
 Pour installer les outils ipython vous pouvez maintenant taper la commande suivante
 ```
@@ -61,7 +61,7 @@ ipython notebook
 Ceci devrait ouvrir l'application dans votre navigateur ou vous donner l'url
 en locahost pour vous y connecter.
 
-##Numpy
+## Numpy
 
 Numpy est un bibliothèque qui propose des calculs sur des tableaux à n dimensions
 (ndarray). Cette bibliothèque est écrite en C++ et est extrèmement optimisées.
@@ -71,7 +71,7 @@ Python.
 pip3 install numpy
 ```
 
-##Matplotlib
+## Matplotlib
 
 Matplotlib est une bibliothèque qui permet de réaliser des graphiques. Elle
 marche très bien en complément de Numpy.
@@ -80,14 +80,14 @@ sudo apt-get install libfreetype6-dev libxft-dev
 pip3 install matplotlib
 ```
 
-##Scipy
+## Scipy
 
 Scipy est une bibliothèque qui permet de faire du calcul scientifique.
 ```
 python -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
 ```
 
-##Sklearn
+## Sklearn
 
 SKlearn est une bibliothèque qui regroupe des algorithmes classiques d'apprentissage.
 ```
