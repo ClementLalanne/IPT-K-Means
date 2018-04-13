@@ -75,9 +75,7 @@ de manière interractive.
 la possibilité de télécharger une archive du projet. Vous pouvez aussi cloner le projet si vous êtes plus à l'aise
 avec `Git` et ainsi vous pourrez mettre automatiquement à jour les fichiers.
 - Dans un terminal, tapez la commande suivante à la racine du projet:
-```
-ipython notebook
-```
+`ipython notebook`
 Il y a deux possibilités: Soit votre navigateur s'ouvre automatiquement, soit votre terminal vous
 donne une adresse à laquelle vous devez vous connecter en localhost depuis votre navigateur.
 Voilà, vous venez d'ouvrir le projet !
@@ -88,7 +86,7 @@ Vous pouvez exécuter une célule en appuyant sur `MAJ + ENTER`.
 Si par exemple vous exécutez la case i puis la case j puis la case k alors
 tout se passera comme si vous aviez écrit les lignes des cases i, j et k dans cet
 ordre dans un fichier. En outre une case peut utiliser tout l'environement d'une autre
-(le moteur d'exécution est commun). 
+(le moteur d'exécution est commun).
 
 
 Nous en avons donc fini avec ce tutoriel. Si vous avez des questions ou des remarques, n'hésitez pas à me contacter.
