@@ -3,7 +3,7 @@
 Vous trouverez ici tous les exemples que j'ai pu utiliser lors de mon exposé.
 Ils sont présentés sous forme d'un notebook Python.
 Si vous ne savez pas ce qu'est un notebook, il s'agit d'un outil bien pratique
-qui permet d'écrire des cases de code avec des cases de texte. Ici les cases de
+qui permet d'écrire des cases de code avec des cases de texte et de les exécuter de manière interractive. Ici les cases de
 code contiennent du code Python et les cases de texte permettent d'écrire en
 Markdown. Il est aussi possible d'y écrire des formules simples en Latex !
 Ceci en fait un super outil pour un projet qui n'est pas trop ambitieux et
@@ -59,9 +59,9 @@ plus vite que les listes Python.
 [Site officiel](http://www.numpy.org/)
 - `Scipy`: Est une bibliothèque permettant de faire du calcul scientifique avec les tableaux `numpy`.
 [Site officiel](https://www.scipy.org/)
--`Matplotlib`: Permet d'afficher des résultats (faire des graphiques en 2D ou 3D).
+- `Matplotlib`: Permet d'afficher des résultats (faire des graphiques en 2D ou 3D).
 [Site officiel](https://matplotlib.org/)
--`Ipython`: Met à disposition un environement appelé "Notebook" permettant d'utiliser `Python`
+- `Ipython`: Met à disposition un environement appelé "Notebook" permettant d'utiliser `Python`
 de manière interractive.
 [Site officiel](https://ipython.org/)
 - `Jupyter`: Similaire à `ipython`. Vous pouvez trouver les détails techniques [ici](https://www.datacamp.com/community/blog/ipython-jupyter).
@@ -71,7 +71,7 @@ de manière interractive.
 
 ## Utilisation
 
-- Téléchargez les différents fichiers: Sur la page `Git` du projet vous avec en haut à droite
+- Téléchargez les différents fichiers: Sur la page `Git` du projet vous avez en haut à droite
 la possibilité de télécharger une archive du projet. Vous pouvez aussi cloner le projet si vous êtes plus à l'aise
 avec `Git` et ainsi vous pourrez mettre automatiquement à jour les fichiers.
 - Dans un terminal, tapez la commande suivante à la racine du projet:
@@ -82,8 +82,13 @@ Il y a deux possibilités: Soit votre navigateur s'ouvre automatiquement, soit v
 donne une adresse à laquelle vous devez vous connecter en localhost depuis votre navigateur.
 Voilà, vous venez d'ouvrir le projet !
 - Maintenant vous vous trouvez dans un `Notebook`. Vous pouvez faire de l'exécution interractive de code.
+Vous pouvez écrire du cove `Python 3`
 Vous pouvez aussi écrire du texte selon des conventions `Markdown`.
 Vous pouvez exécuter une célule en appuyant sur `MAJ + ENTER`.
+Si par exemple vous exécutez la case i puis la case j puis la case k alors
+tout se passera comme si vous aviez écrit les lignes des cases i, j et k dans cet
+ordre dans un fichier. En outre une case peut utiliser tout l'environement d'une autre
+(le moteur d'exécution est commun). 
 
 
 Nous en avons donc fini avec ce tutoriel. Si vous avez des questions ou des remarques, n'hésitez pas à me contacter.
