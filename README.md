@@ -3,11 +3,11 @@
 Vous trouverez ici tous les exemples que j'ai pu utiliser lors de mon exposé.
 Ils sont présentés sous forme d'un notebook Python.
 Si vous ne savez pas ce qu'est un notebook, il s'agit d'un outil bien pratique
-qui permet d'écrire des cases de code avec des cases de texte et de les exécuter de manière interractive. Ici les cases de
-code contiennent du code Python et les cases de texte permettent d'écrire en
-Markdown. Il est aussi possible d'y écrire des formules simples en Latex !
+qui permet d'écrire des cases de code et de texte et de les exécuter de manière interractive. Ici les cases de
+code contiennent du code `Python 3` et les cases de texte permettent d'écrire en
+`Markdown`. Il est aussi possible d'y écrire des formules simples en `Latex` !
 Ceci en fait un super outil pour un projet qui n'est pas trop ambitieux et
-qui n'a pas trop de dépendances tels que les TP's.
+qui n'a pas trop de dépendances comme par exemple vos TP's d'informatique.
 
 Nous allons voir en détail comment installer les différents outils dont nous
 avons besoin pour les expériences.
@@ -21,8 +21,8 @@ Tout d'abord le langage `Python 3` ! Vous pouvez le trouver
 [ici](https://www.python.org/downloads/). Faites bien attention à l'installer
 de manière compatible avec votre système d'exploitation.
 
-Si vous utilisez Mac, je vous recommande d'installer Python en utilisant
-Homebrew. Qu'est-ce que Homebrew ? Il s'agit d'un gestionnaire de paquets pour
+Si vous utilisez Mac, je vous recommande d'installer `Python` en utilisant
+`Homebrew`. Qu'est-ce que `Homebrew` ? Il s'agit d'un gestionnaire de paquets pour
 Mac car Apple n'en fournit pas nativement.
 [Ce site](http://docs.python-guide.org/en/latest/starting/install3/osx/)
 détaille toute la procédure.
@@ -49,6 +49,8 @@ sudo apt-get -y install python3-pip
 ```
 
 ## Installation des bibliothèques
+
+Une fois que `pip` est installé, vous pouvez installer les bibliothèques avec la commande suivante (autant sur Linux que sur Mac).
 
 ```
 python3 -m pip install --user numpy scipy matplotlib ipython jupyter scikit-learn
@@ -79,13 +81,12 @@ avec `Git` et ainsi vous pourrez mettre automatiquement à jour les fichiers.
 Il y a deux possibilités: Soit votre navigateur s'ouvre automatiquement, soit votre terminal vous
 donne une adresse à laquelle vous devez vous connecter en localhost depuis votre navigateur.
 Voilà, vous venez d'ouvrir le projet !
-- Maintenant vous vous trouvez dans un `Notebook`. Vous pouvez faire de l'exécution interractive de code.
-Vous pouvez écrire du cove `Python 3`
-Vous pouvez aussi écrire du texte selon des conventions `Markdown`.
-Vous pouvez exécuter une célule en appuyant sur `MAJ + ENTER`.
-Si par exemple vous exécutez la case i puis la case j puis la case k alors
+- Maintenant vous vous trouvez dans un `Notebook`. Vous pouvez faire de l'exécution interractive de code `Python 3`
+et écrire du texte selon des conventions `Markdown`.
+Pour exécuter une célule, appuyez sur `MAJ + ENTER`.
+Si par exemple vous exécutez la case i puis la case j et enfin la case k alors
 tout se passera comme si vous aviez écrit les lignes des cases i, j et k dans cet
-ordre dans un fichier. En outre une case peut utiliser tout l'environement d'une autre
+ordre dans une même case et exécuté celle-ci. En outre une case peut utiliser tout l'environement d'une autre
 (le moteur d'exécution est commun).
 
 
